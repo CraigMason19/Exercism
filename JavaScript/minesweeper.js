@@ -31,7 +31,7 @@ class Board {
                 }
             }
             catch(e) {
-                // ignore
+                // ignore index error
             }
         });
 
