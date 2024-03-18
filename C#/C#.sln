@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tracks on Tracks on Tracks"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "International Calling Connoisseur", "International Calling Connoisseur\International Calling Connoisseur.csproj", "{14F5CD21-5250-414E-A12A-4F11EE53FFD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tim from Marketing", "Tim from Marketing\Tim from Marketing.csproj", "{C82EADBA-6229-4EC6-A62E-FBBBE2F6D732}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tim from Marketing", "Tim from Marketing\Tim from Marketing.csproj", "{C82EADBA-6229-4EC6-A62E-FBBBE2F6D732}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robot Name", "Robot Name\Robot Name.csproj", "{DC18CF51-C950-4E3F-871C-9447443816A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{C82EADBA-6229-4EC6-A62E-FBBBE2F6D732}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C82EADBA-6229-4EC6-A62E-FBBBE2F6D732}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C82EADBA-6229-4EC6-A62E-FBBBE2F6D732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC18CF51-C950-4E3F-871C-9447443816A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC18CF51-C950-4E3F-871C-9447443816A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC18CF51-C950-4E3F-871C-9447443816A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC18CF51-C950-4E3F-871C-9447443816A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
