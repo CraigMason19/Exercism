@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tim from Marketing", "Tim f
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Robot Name", "Robot Name\Robot Name.csproj", "{DC18CF51-C950-4E3F-871C-9447443816A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse String", "Reverse String\Reverse String.csproj", "{6762A57D-783B-4315-90E6-523AA046087B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reverse String", "Reverse String\Reverse String.csproj", "{6762A57D-783B-4315-90E6-523AA046087B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rotational Cipher", "Rotational Cipher\Rotational Cipher.csproj", "{E2B12CF5-31C2-4323-847A-C898BCECED38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{6762A57D-783B-4315-90E6-523AA046087B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6762A57D-783B-4315-90E6-523AA046087B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6762A57D-783B-4315-90E6-523AA046087B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2B12CF5-31C2-4323-847A-C898BCECED38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2B12CF5-31C2-4323-847A-C898BCECED38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2B12CF5-31C2-4323-847A-C898BCECED38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2B12CF5-31C2-4323-847A-C898BCECED38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
