@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Robot Name", "Robot Name\Ro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reverse String", "Reverse String\Reverse String.csproj", "{6762A57D-783B-4315-90E6-523AA046087B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rotational Cipher", "Rotational Cipher\Rotational Cipher.csproj", "{E2B12CF5-31C2-4323-847A-C898BCECED38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rotational Cipher", "Rotational Cipher\Rotational Cipher.csproj", "{E2B12CF5-31C2-4323-847A-C898BCECED38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isogram", "Isogram\Isogram.csproj", "{691BB129-1A1C-4942-80F8-5DD19663DA52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{E2B12CF5-31C2-4323-847A-C898BCECED38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2B12CF5-31C2-4323-847A-C898BCECED38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2B12CF5-31C2-4323-847A-C898BCECED38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{691BB129-1A1C-4942-80F8-5DD19663DA52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{691BB129-1A1C-4942-80F8-5DD19663DA52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{691BB129-1A1C-4942-80F8-5DD19663DA52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{691BB129-1A1C-4942-80F8-5DD19663DA52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
