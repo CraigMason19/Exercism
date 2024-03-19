@@ -1,0 +1,1 @@
+﻿Console.WriteLine(AssemblyLine.ProductionRatePerHour(5));
