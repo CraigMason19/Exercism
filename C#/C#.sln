@@ -37,11 +37,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Darts", "Darts\Darts.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Resistor Color Duo", "Resistor Color Duo\Resistor Color Duo.csproj", "{8DB5C695-03AB-47D5-9844-3E0D98606069}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "﻿Hello World", "﻿Hello World\﻿Hello World.csproj", "{88F2275F-E9DA-40C9-8F7B-A88F8899CA6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "﻿Hello World", "﻿Hello World\﻿Hello World.csproj", "{88F2275F-E9DA-40C9-8F7B-A88F8899CA6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lucians Luscious Lasagna", "Lucians Luscious Lasagna\Lucians Luscious Lasagna.csproj", "{F328B75A-7B9F-4F6B-85D6-A4CC731BCE79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lucians Luscious Lasagna", "Lucians Luscious Lasagna\Lucians Luscious Lasagna.csproj", "{F328B75A-7B9F-4F6B-85D6-A4CC731BCE79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cars Assemble", "Cars Assemble\Cars Assemble.csproj", "{B3899A27-EC4A-4253-B7F1-4B4021AAB5FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cars Assemble", "Cars Assemble\Cars Assemble.csproj", "{B3899A27-EC4A-4253-B7F1-4B4021AAB5FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETL", "ETL\ETL.csproj", "{46E77906-25A7-4196-A61F-546B269970B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Difference of Squares", "Difference of Squares\Difference of Squares.csproj", "{273D7EED-2AF8-4697-96CA-D5ED4660603C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bob", "Bob\Bob.csproj", "{8457889C-0F0B-4FE0-99F5-0CADF81B3064}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +135,18 @@ Global
 		{B3899A27-EC4A-4253-B7F1-4B4021AAB5FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3899A27-EC4A-4253-B7F1-4B4021AAB5FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3899A27-EC4A-4253-B7F1-4B4021AAB5FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46E77906-25A7-4196-A61F-546B269970B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E77906-25A7-4196-A61F-546B269970B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E77906-25A7-4196-A61F-546B269970B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E77906-25A7-4196-A61F-546B269970B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{273D7EED-2AF8-4697-96CA-D5ED4660603C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{273D7EED-2AF8-4697-96CA-D5ED4660603C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{273D7EED-2AF8-4697-96CA-D5ED4660603C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{273D7EED-2AF8-4697-96CA-D5ED4660603C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8457889C-0F0B-4FE0-99F5-0CADF81B3064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8457889C-0F0B-4FE0-99F5-0CADF81B3064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8457889C-0F0B-4FE0-99F5-0CADF81B3064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8457889C-0F0B-4FE0-99F5-0CADF81B3064}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
