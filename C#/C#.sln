@@ -45,9 +45,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cars Assemble", "Cars Assem
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETL", "ETL\ETL.csproj", "{46E77906-25A7-4196-A61F-546B269970B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Difference of Squares", "Difference of Squares\Difference of Squares.csproj", "{273D7EED-2AF8-4697-96CA-D5ED4660603C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Difference of Squares", "Difference of Squares\Difference of Squares.csproj", "{273D7EED-2AF8-4697-96CA-D5ED4660603C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bob", "Bob\Bob.csproj", "{8457889C-0F0B-4FE0-99F5-0CADF81B3064}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bob", "Bob\Bob.csproj", "{8457889C-0F0B-4FE0-99F5-0CADF81B3064}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Annalyns Infiltration", "Annalyns Infiltration\Annalyns Infiltration.csproj", "{5ACD2831-4B23-4433-8928-CE803933FF0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interest is Interesting", "Interest is Interesting\Interest is Interesting.csproj", "{810C9F74-9C8B-44AB-A713-0E4F3AEC92E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squeaky Clean", "Squeaky Clean\Squeaky Clean.csproj", "{5892B088-D68C-4D34-B20C-100EBD0C67BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pangram", "Pangram\Pangram.csproj", "{25100AB7-5720-449B-B052-106FADBF7DAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +155,22 @@ Global
 		{8457889C-0F0B-4FE0-99F5-0CADF81B3064}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8457889C-0F0B-4FE0-99F5-0CADF81B3064}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8457889C-0F0B-4FE0-99F5-0CADF81B3064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ACD2831-4B23-4433-8928-CE803933FF0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ACD2831-4B23-4433-8928-CE803933FF0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ACD2831-4B23-4433-8928-CE803933FF0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ACD2831-4B23-4433-8928-CE803933FF0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{810C9F74-9C8B-44AB-A713-0E4F3AEC92E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{810C9F74-9C8B-44AB-A713-0E4F3AEC92E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{810C9F74-9C8B-44AB-A713-0E4F3AEC92E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{810C9F74-9C8B-44AB-A713-0E4F3AEC92E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5892B088-D68C-4D34-B20C-100EBD0C67BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5892B088-D68C-4D34-B20C-100EBD0C67BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5892B088-D68C-4D34-B20C-100EBD0C67BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5892B088-D68C-4D34-B20C-100EBD0C67BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25100AB7-5720-449B-B052-106FADBF7DAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25100AB7-5720-449B-B052-106FADBF7DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25100AB7-5720-449B-B052-106FADBF7DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25100AB7-5720-449B-B052-106FADBF7DAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
