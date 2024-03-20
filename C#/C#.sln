@@ -49,13 +49,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Difference of Squares", "Di
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bob", "Bob\Bob.csproj", "{8457889C-0F0B-4FE0-99F5-0CADF81B3064}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Annalyns Infiltration", "Annalyns Infiltration\Annalyns Infiltration.csproj", "{5ACD2831-4B23-4433-8928-CE803933FF0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Annalyns Infiltration", "Annalyns Infiltration\Annalyns Infiltration.csproj", "{5ACD2831-4B23-4433-8928-CE803933FF0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interest is Interesting", "Interest is Interesting\Interest is Interesting.csproj", "{810C9F74-9C8B-44AB-A713-0E4F3AEC92E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interest is Interesting", "Interest is Interesting\Interest is Interesting.csproj", "{810C9F74-9C8B-44AB-A713-0E4F3AEC92E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Squeaky Clean", "Squeaky Clean\Squeaky Clean.csproj", "{5892B088-D68C-4D34-B20C-100EBD0C67BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Squeaky Clean", "Squeaky Clean\Squeaky Clean.csproj", "{5892B088-D68C-4D34-B20C-100EBD0C67BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pangram", "Pangram\Pangram.csproj", "{25100AB7-5720-449B-B052-106FADBF7DAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pangram", "Pangram\Pangram.csproj", "{25100AB7-5720-449B-B052-106FADBF7DAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Run-Length Encoding", "Run-Length Encoding\Run-Length Encoding.csproj", "{410B726D-008E-47DD-9D6B-D2969A5C6D45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +173,10 @@ Global
 		{25100AB7-5720-449B-B052-106FADBF7DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25100AB7-5720-449B-B052-106FADBF7DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25100AB7-5720-449B-B052-106FADBF7DAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{410B726D-008E-47DD-9D6B-D2969A5C6D45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{410B726D-008E-47DD-9D6B-D2969A5C6D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{410B726D-008E-47DD-9D6B-D2969A5C6D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{410B726D-008E-47DD-9D6B-D2969A5C6D45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
