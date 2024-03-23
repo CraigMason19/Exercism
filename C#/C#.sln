@@ -59,7 +59,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pangram", "Pangram\Pangram.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Run-Length Encoding", "Run-Length Encoding\Run-Length Encoding.csproj", "{410B726D-008E-47DD-9D6B-D2969A5C6D45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luhn", "Luhn\Luhn.csproj", "{330FEFE0-A91D-45A5-B00B-E8C9707A5114}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Luhn", "Luhn\Luhn.csproj", "{330FEFE0-A91D-45A5-B00B-E8C9707A5114}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acronym", "Acronym\Acronym.csproj", "{0BF6EB11-AFF3-4B82-B46B-23B4444F6379}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,6 +185,10 @@ Global
 		{330FEFE0-A91D-45A5-B00B-E8C9707A5114}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{330FEFE0-A91D-45A5-B00B-E8C9707A5114}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{330FEFE0-A91D-45A5-B00B-E8C9707A5114}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BF6EB11-AFF3-4B82-B46B-23B4444F6379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF6EB11-AFF3-4B82-B46B-23B4444F6379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF6EB11-AFF3-4B82-B46B-23B4444F6379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF6EB11-AFF3-4B82-B46B-23B4444F6379}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
