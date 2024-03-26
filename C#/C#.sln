@@ -65,7 +65,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acronym", "Acronym\Acronym.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Triangle", "Triangle\Triangle.csproj", "{DD13F459-3077-45D2-BA94-5397FF9115D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum Of Multiples", "Sum Of Multiples\Sum Of Multiples.csproj", "{17A2BB5B-5EC1-4A7A-8AE1-3C70CC3CA9DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sum Of Multiples", "Sum Of Multiples\Sum Of Multiples.csproj", "{17A2BB5B-5EC1-4A7A-8AE1-3C70CC3CA9DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phone Number Analysis", "Phone Number Analysis\Phone Number Analysis.csproj", "{26D66E61-6956-4CFB-9A03-45BD1435CB01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -201,6 +203,10 @@ Global
 		{17A2BB5B-5EC1-4A7A-8AE1-3C70CC3CA9DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17A2BB5B-5EC1-4A7A-8AE1-3C70CC3CA9DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17A2BB5B-5EC1-4A7A-8AE1-3C70CC3CA9DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26D66E61-6956-4CFB-9A03-45BD1435CB01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26D66E61-6956-4CFB-9A03-45BD1435CB01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26D66E61-6956-4CFB-9A03-45BD1435CB01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26D66E61-6956-4CFB-9A03-45BD1435CB01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
