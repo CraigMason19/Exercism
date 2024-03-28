@@ -69,7 +69,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sum Of Multiples", "Sum Of 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phone Number Analysis", "Phone Number Analysis\Phone Number Analysis.csproj", "{26D66E61-6956-4CFB-9A03-45BD1435CB01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atbash", "Atbash\Atbash.csproj", "{DD114256-4291-45CE-9BC7-0C86449E75A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atbash", "Atbash\Atbash.csproj", "{DD114256-4291-45CE-9BC7-0C86449E75A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roll The Die", "Roll The Die\Roll The Die.csproj", "{FD9A2AAC-1423-437A-A72E-B15273F4A572}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leap", "Leap\Leap.csproj", "{EAE71E44-C96F-409A-B6D7-AA46A658D483}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scrabble Score", "Scrabble Score\Scrabble Score.csproj", "{5D0CE308-B33C-4AA4-8A6D-A5C4F22BC2BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -213,6 +219,18 @@ Global
 		{DD114256-4291-45CE-9BC7-0C86449E75A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD114256-4291-45CE-9BC7-0C86449E75A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD114256-4291-45CE-9BC7-0C86449E75A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD9A2AAC-1423-437A-A72E-B15273F4A572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD9A2AAC-1423-437A-A72E-B15273F4A572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD9A2AAC-1423-437A-A72E-B15273F4A572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD9A2AAC-1423-437A-A72E-B15273F4A572}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAE71E44-C96F-409A-B6D7-AA46A658D483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAE71E44-C96F-409A-B6D7-AA46A658D483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAE71E44-C96F-409A-B6D7-AA46A658D483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAE71E44-C96F-409A-B6D7-AA46A658D483}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D0CE308-B33C-4AA4-8A6D-A5C4F22BC2BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D0CE308-B33C-4AA4-8A6D-A5C4F22BC2BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D0CE308-B33C-4AA4-8A6D-A5C4F22BC2BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D0CE308-B33C-4AA4-8A6D-A5C4F22BC2BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
