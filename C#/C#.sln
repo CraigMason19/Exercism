@@ -85,7 +85,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pythagorean Triplet", "Pyth
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Log Analysis", "Log Analysis\Log Analysis.csproj", "{40E90E66-3428-4578-935E-7F247DB5D405}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accumulate", "Accumulate\Accumulate.csproj", "{C75D0BF5-F0CD-4E18-B8E7-2851379EB68C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accumulate", "Accumulate\Accumulate.csproj", "{C75D0BF5-F0CD-4E18-B8E7-2851379EB68C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matching Brackets", "Matching Brackets\Matching Brackets.csproj", "{DA0B7608-D9A2-46CD-BF74-A8592F1DB62E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProteinTranslation", "ProteinTranslation\ProteinTranslation.csproj", "{FF44AEBA-ED3E-4C34-A473-0E7200E9BD4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -261,6 +265,14 @@ Global
 		{C75D0BF5-F0CD-4E18-B8E7-2851379EB68C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C75D0BF5-F0CD-4E18-B8E7-2851379EB68C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C75D0BF5-F0CD-4E18-B8E7-2851379EB68C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA0B7608-D9A2-46CD-BF74-A8592F1DB62E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA0B7608-D9A2-46CD-BF74-A8592F1DB62E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA0B7608-D9A2-46CD-BF74-A8592F1DB62E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA0B7608-D9A2-46CD-BF74-A8592F1DB62E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF44AEBA-ED3E-4C34-A473-0E7200E9BD4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF44AEBA-ED3E-4C34-A473-0E7200E9BD4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF44AEBA-ED3E-4C34-A473-0E7200E9BD4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF44AEBA-ED3E-4C34-A473-0E7200E9BD4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
