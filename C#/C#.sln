@@ -89,7 +89,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accumulate", "Accumulate\Ac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matching Brackets", "Matching Brackets\Matching Brackets.csproj", "{DA0B7608-D9A2-46CD-BF74-A8592F1DB62E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProteinTranslation", "ProteinTranslation\ProteinTranslation.csproj", "{FF44AEBA-ED3E-4C34-A473-0E7200E9BD4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProteinTranslation", "ProteinTranslation\ProteinTranslation.csproj", "{FF44AEBA-ED3E-4C34-A473-0E7200E9BD4C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transpose", "Transpose\Transpose.csproj", "{90DBC058-9E87-40AE-8326-D05B8A62619D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Football Match Reports", "Football Match Reports\Football Match Reports.csproj", "{787738FD-7A6C-4DED-8293-9A680202166C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator Conundrum", "Calculator Conundrum\Calculator Conundrum.csproj", "{A954BC9B-0169-4FE0-BE7A-39D9E6088113}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nth Prime", "Nth Prime\Nth Prime.csproj", "{43771C79-20A8-4568-A085-376CFC43C27C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -273,6 +281,22 @@ Global
 		{FF44AEBA-ED3E-4C34-A473-0E7200E9BD4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF44AEBA-ED3E-4C34-A473-0E7200E9BD4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF44AEBA-ED3E-4C34-A473-0E7200E9BD4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90DBC058-9E87-40AE-8326-D05B8A62619D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90DBC058-9E87-40AE-8326-D05B8A62619D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90DBC058-9E87-40AE-8326-D05B8A62619D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90DBC058-9E87-40AE-8326-D05B8A62619D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{787738FD-7A6C-4DED-8293-9A680202166C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{787738FD-7A6C-4DED-8293-9A680202166C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{787738FD-7A6C-4DED-8293-9A680202166C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{787738FD-7A6C-4DED-8293-9A680202166C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A954BC9B-0169-4FE0-BE7A-39D9E6088113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A954BC9B-0169-4FE0-BE7A-39D9E6088113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A954BC9B-0169-4FE0-BE7A-39D9E6088113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A954BC9B-0169-4FE0-BE7A-39D9E6088113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43771C79-20A8-4568-A085-376CFC43C27C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43771C79-20A8-4568-A085-376CFC43C27C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43771C79-20A8-4568-A085-376CFC43C27C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43771C79-20A8-4568-A085-376CFC43C27C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
