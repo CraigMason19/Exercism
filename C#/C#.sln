@@ -97,7 +97,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Football Match Reports", "F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator Conundrum", "Calculator Conundrum\Calculator Conundrum.csproj", "{A954BC9B-0169-4FE0-BE7A-39D9E6088113}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nth Prime", "Nth Prime\Nth Prime.csproj", "{43771C79-20A8-4568-A085-376CFC43C27C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nth Prime", "Nth Prime\Nth Prime.csproj", "{43771C79-20A8-4568-A085-376CFC43C27C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sieve", "Sieve\Sieve.csproj", "{86878512-D421-475B-AD03-F153D2D46280}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -297,6 +299,10 @@ Global
 		{43771C79-20A8-4568-A085-376CFC43C27C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43771C79-20A8-4568-A085-376CFC43C27C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43771C79-20A8-4568-A085-376CFC43C27C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86878512-D421-475B-AD03-F153D2D46280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86878512-D421-475B-AD03-F153D2D46280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86878512-D421-475B-AD03-F153D2D46280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86878512-D421-475B-AD03-F153D2D46280}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
