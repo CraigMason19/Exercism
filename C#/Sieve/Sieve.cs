@@ -1,46 +1,41 @@
 ﻿using System;
-using System.Reflection.Metadata.Ecma335;
-
-//const eratosthenes = (n) => {
-//    if (n < 2)
-//    {
-//        return [];
-//    }
-
-//    // Keep 0 & 1 for easy indexing
-//    var numbers = [0, 0];
-
-//    for (let i = 2; i < n + 1; i++)
-//    {
-//        numbers.push(i);
-//    }
-
-//    for (let i = 2; i < numbers.length; i++)
-//    {
-//        if (numbers[i] === 0)
-//        {
-//            continue;
-//        }
-
-//        for (var j = numbers[i] * numbers[i]; j <= n; j += numbers[i])
-//        {
-//            numbers[j] = 0;
-//        }
-//    }
-
-//    return numbers.filter(num => num !== 0);
-//};
-
-//module.exports = { eratosthenes };
+using System.Collections.Generic;
+using System.Linq;
 
 public static class Sieve
 {
     public static int[] Primes(int limit)
     {
-        limit switch
+        if (limit < 0)
         {
-            limit < 2 => return new int[],
-            limit 
-        };
+            throw new ArgumentOutOfRangeException();
+        }
+        if(limit < 2)
+        {
+            return [];
+        }
+
+        // Keep 0 & 1 for easy indexing
+        List<int> numbers = new List<int>([0,0]);
+
+        for (int i = 2; i < limit + 1; i++)
+        {
+            numbers.Add(i);
+        }
+
+        for (int i = 2; i < numbers.Count; i++)
+        {
+            if (numbers[i] == 0)
+            {
+                continue;
+            }
+
+            for (var j = numbers[i] * numbers[i]; j <= limit; j += numbers[i])
+            {
+                numbers[j] = 0;
+            }
+        }
+
+        return numbers.Where(n => n != 0).ToArray();
     }
 }
