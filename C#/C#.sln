@@ -107,7 +107,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collatz Conjecture", "Colla
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nucleotide Count", "Nucleotide Count\Nucleotide Count.csproj", "{0D1ECD56-7182-4B9A-A2C0-B195B6F8F2C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RNA Transcription", "RNA Transcription\RNA Transcription.csproj", "{1B6823F8-6B89-46FD-B39B-84A8528A4BDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RNA Transcription", "RNA Transcription\RNA Transcription.csproj", "{1B6823F8-6B89-46FD-B39B-84A8528A4BDF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Object Relational Mapping", "Object Relational Mapping\Object Relational Mapping.csproj", "{8986A408-0B1B-4B2F-BA4A-03D6C95057A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orm In One Go", "Orm In One Go\Orm In One Go.csproj", "{CCA7772F-040C-4CCA-9981-B5E38D391A01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -327,6 +331,14 @@ Global
 		{1B6823F8-6B89-46FD-B39B-84A8528A4BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B6823F8-6B89-46FD-B39B-84A8528A4BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B6823F8-6B89-46FD-B39B-84A8528A4BDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8986A408-0B1B-4B2F-BA4A-03D6C95057A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8986A408-0B1B-4B2F-BA4A-03D6C95057A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8986A408-0B1B-4B2F-BA4A-03D6C95057A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8986A408-0B1B-4B2F-BA4A-03D6C95057A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCA7772F-040C-4CCA-9981-B5E38D391A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCA7772F-040C-4CCA-9981-B5E38D391A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCA7772F-040C-4CCA-9981-B5E38D391A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCA7772F-040C-4CCA-9981-B5E38D391A01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
