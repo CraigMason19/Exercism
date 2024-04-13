@@ -111,7 +111,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RNA Transcription", "RNA Tr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Object Relational Mapping", "Object Relational Mapping\Object Relational Mapping.csproj", "{8986A408-0B1B-4B2F-BA4A-03D6C95057A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orm In One Go", "Orm In One Go\Orm In One Go.csproj", "{CCA7772F-040C-4CCA-9981-B5E38D391A01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Orm In One Go", "Orm In One Go\Orm In One Go.csproj", "{CCA7772F-040C-4CCA-9981-B5E38D391A01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logs, Logs, Logs", "Logs, Logs, Logs\Logs, Logs, Logs.csproj", "{79AECC45-76D6-47A0-A598-89B3EE48A75F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weighing Machine", "Weighing Machine\Weighing Machine.csproj", "{AA8EFA8A-CF0F-407D-91AD-BA2C774B8B0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remote Control Competition", "Remote Control Competition\Remote Control Competition.csproj", "{E01D3A21-6F96-4472-8368-10F39F920C44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -339,6 +345,18 @@ Global
 		{CCA7772F-040C-4CCA-9981-B5E38D391A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCA7772F-040C-4CCA-9981-B5E38D391A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCA7772F-040C-4CCA-9981-B5E38D391A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79AECC45-76D6-47A0-A598-89B3EE48A75F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79AECC45-76D6-47A0-A598-89B3EE48A75F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79AECC45-76D6-47A0-A598-89B3EE48A75F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79AECC45-76D6-47A0-A598-89B3EE48A75F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA8EFA8A-CF0F-407D-91AD-BA2C774B8B0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA8EFA8A-CF0F-407D-91AD-BA2C774B8B0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA8EFA8A-CF0F-407D-91AD-BA2C774B8B0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA8EFA8A-CF0F-407D-91AD-BA2C774B8B0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E01D3A21-6F96-4472-8368-10F39F920C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E01D3A21-6F96-4472-8368-10F39F920C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E01D3A21-6F96-4472-8368-10F39F920C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E01D3A21-6F96-4472-8368-10F39F920C44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
