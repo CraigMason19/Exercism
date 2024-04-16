@@ -23,4 +23,20 @@ const eratosthenes = (n) => {
     return numbers.filter(num => num !== 0);
 };
 
-module.exports = { eratosthenes };
+// Co-Prime OR relatively prime
+const areCoPrime = (a, b) => {
+    const smallest = a > b ? a : b;
+
+    for(let i = 2; i < smallest; i++) {
+       const condition1 = a % i === 0;
+       const condition2 = b % i === 0;
+
+       if(condition1 && condition2) {
+          return false;
+       };
+    };
+
+    return true;
+};
+
+module.exports = { eratosthenes, areCoPrime };
