@@ -1,7 +1,7 @@
 const primes = require('./helper/primes');
 const letters = require('./helper/letters');
 
-const blockFormat = (str, block_size=5) => {
+const blockFormat = (str, blockSize=5) => {
     let seperatorCounter = 0;
     let formatted = "";
   
@@ -10,7 +10,7 @@ const blockFormat = (str, block_size=5) => {
         formatted += str[i];
         seperatorCounter++;
   
-        if (seperatorCounter == block_size)
+        if (seperatorCounter == blockSize)
         {
             formatted += " ";
             seperatorCounter = 0;
