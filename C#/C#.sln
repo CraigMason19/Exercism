@@ -125,9 +125,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matrix", "Matrix\Matrix.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Perfect Numbers", "Perfect Numbers\Perfect Numbers.csproj", "{D9518949-18B9-4FA2-8835-8E276EC95FBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twelve Days", "Twelve Days\Twelve Days.csproj", "{03962597-7D2D-47B2-BF05-CB90317F90E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twelve Days", "Twelve Days\Twelve Days.csproj", "{03962597-7D2D-47B2-BF05-CB90317F90E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booking Up For Beauty", "Booking Up For Beauty\Booking Up For Beauty.csproj", "{ABCAE551-FFEA-4E4D-89E0-2374ED61250B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Booking Up For Beauty", "Booking Up For Beauty\Booking Up For Beauty.csproj", "{ABCAE551-FFEA-4E4D-89E0-2374ED61250B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beauty Salon Goes Global", "Beauty Salon Goes Global\Beauty Salon Goes Global.csproj", "{DBCCB045-390B-4BD3-883F-2384ED52FC15}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "High School Sweethearts", "High School Sweethearts\High School Sweethearts.csproj", "{593F1EAD-01D2-4A76-B8A5-FCFD3B90F99C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Affine Cipher", "Affine Cipher\Affine Cipher.csproj", "{3438CBDF-ED60-422A-9D23-036D2F269EF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -387,6 +393,18 @@ Global
 		{ABCAE551-FFEA-4E4D-89E0-2374ED61250B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABCAE551-FFEA-4E4D-89E0-2374ED61250B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABCAE551-FFEA-4E4D-89E0-2374ED61250B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBCCB045-390B-4BD3-883F-2384ED52FC15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBCCB045-390B-4BD3-883F-2384ED52FC15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBCCB045-390B-4BD3-883F-2384ED52FC15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBCCB045-390B-4BD3-883F-2384ED52FC15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{593F1EAD-01D2-4A76-B8A5-FCFD3B90F99C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{593F1EAD-01D2-4A76-B8A5-FCFD3B90F99C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{593F1EAD-01D2-4A76-B8A5-FCFD3B90F99C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{593F1EAD-01D2-4A76-B8A5-FCFD3B90F99C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3438CBDF-ED60-422A-9D23-036D2F269EF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3438CBDF-ED60-422A-9D23-036D2F269EF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3438CBDF-ED60-422A-9D23-036D2F269EF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3438CBDF-ED60-422A-9D23-036D2F269EF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
