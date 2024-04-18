@@ -137,7 +137,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Affine Cipher", "Affine Cip
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tournament", "Tournament\Tournament.csproj", "{7F475B58-1EBC-4CA2-9FCF-0D7587454F3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Series", "Series\Series.csproj", "{366FCC48-BE28-4C93-84BF-316CC7AD486D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Series", "Series\Series.csproj", "{366FCC48-BE28-4C93-84BF-316CC7AD486D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gigasecond", "Gigasecond\Gigasecond.csproj", "{371E3F58-CF84-4B20-8FC2-6CA90BDAE369}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -417,6 +419,10 @@ Global
 		{366FCC48-BE28-4C93-84BF-316CC7AD486D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{366FCC48-BE28-4C93-84BF-316CC7AD486D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{366FCC48-BE28-4C93-84BF-316CC7AD486D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{371E3F58-CF84-4B20-8FC2-6CA90BDAE369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{371E3F58-CF84-4B20-8FC2-6CA90BDAE369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{371E3F58-CF84-4B20-8FC2-6CA90BDAE369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{371E3F58-CF84-4B20-8FC2-6CA90BDAE369}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
