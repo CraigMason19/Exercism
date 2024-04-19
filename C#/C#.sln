@@ -139,7 +139,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tournament", "Tournament\To
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Series", "Series\Series.csproj", "{366FCC48-BE28-4C93-84BF-316CC7AD486D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gigasecond", "Gigasecond\Gigasecond.csproj", "{371E3F58-CF84-4B20-8FC2-6CA90BDAE369}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gigasecond", "Gigasecond\Gigasecond.csproj", "{371E3F58-CF84-4B20-8FC2-6CA90BDAE369}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D&D Character", "D&D Character\D&D Character.csproj", "{E7ED5C5F-C0BB-4258-A89F-85134D2870CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allergies", "Allergies\Allergies.csproj", "{9AB8ED63-32BB-45B6-9689-FA09F7B4EEC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -423,6 +427,14 @@ Global
 		{371E3F58-CF84-4B20-8FC2-6CA90BDAE369}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{371E3F58-CF84-4B20-8FC2-6CA90BDAE369}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{371E3F58-CF84-4B20-8FC2-6CA90BDAE369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7ED5C5F-C0BB-4258-A89F-85134D2870CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7ED5C5F-C0BB-4258-A89F-85134D2870CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7ED5C5F-C0BB-4258-A89F-85134D2870CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7ED5C5F-C0BB-4258-A89F-85134D2870CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AB8ED63-32BB-45B6-9689-FA09F7B4EEC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AB8ED63-32BB-45B6-9689-FA09F7B4EEC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AB8ED63-32BB-45B6-9689-FA09F7B4EEC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AB8ED63-32BB-45B6-9689-FA09F7B4EEC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
