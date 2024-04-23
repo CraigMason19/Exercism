@@ -28,8 +28,8 @@ class QueenAttack {
     }
   
     get canAttack() {
-        let dirs = this.board.cardinalsAndOrdinals(this.white[0], this.white[1]);
-        return Object.values(dirs).flat().includes("B");
+        let result = this.board.cardinalsAndOrdinals(this.white[0], this.white[1]);
+        return result.flatMap(obj => obj.values).includes("B");
     }
 }
  

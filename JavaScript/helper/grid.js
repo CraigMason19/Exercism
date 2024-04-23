@@ -231,49 +231,49 @@ class Grid {
      * Gets all data from all cardinal directions (N, E, S, W) including the specified cell.
      * @param {number} x - The row index of the cell.
      * @param {number} y - The column index of the cell.
-     * @returns {object} - The key and values from all cardinal directions.
+     * @returns {Array} - An array of objects from all cardinal directions.
      */
     cardinals(x, y) {
-        return {
-            "N": this.cardinal(x, y, Direction.N),
-            "S": this.cardinal(x, y, Direction.S),
-            "E": this.cardinal(x, y, Direction.E),
-            "W": this.cardinal(x, y, Direction.W),
-        };
+        return [
+            { direction:Direction.N, values:this.cardinal(x, y, Direction.N) },
+            { direction:Direction.S, values:this.cardinal(x, y, Direction.S) },
+            { direction:Direction.E, values:this.cardinal(x, y, Direction.E) },
+            { direction:Direction.W, values:this.cardinal(x, y, Direction.W) },
+        ];
     }
 
     /**
      * Gets all data from all ordinal directions (NE, SE, SW, NW) including the specified cell.
      * @param {number} x - The row index of the cell.
      * @param {number} y - The column index of the cell.
-     * @returns {object} - The key and values from all ordinal directions.
+     * @returns {Array} - An array of objects from all ordinal directions.
      */
     ordinals(x, y) {
-        return {
-            "NE": this.ordinal(x, y, Direction.NE),
-            "SE": this.ordinal(x, y, Direction.SE),
-            "SW": this.ordinal(x, y, Direction.SW),
-            "NW": this.ordinal(x, y, Direction.NW),
-        };
+        return [
+            { direction:Direction.NE, values:this.ordinal(x, y, Direction.NE) },
+            { direction:Direction.SE, values:this.ordinal(x, y, Direction.SE) },
+            { direction:Direction.SW, values:this.ordinal(x, y, Direction.SW) },
+            { direction:Direction.NW, values:this.ordinal(x, y, Direction.NW) },
+        ];
     }
 
     /**
      * Gets all data from all cardinal & ordinal directions (N, E, S, W, NE, SE, SW, NW) including the specified cell.
      * @param {number} x - The row index of the cell.
      * @param {number} y - The column index of the cell.
-     * @returns {object} - The key and values from all cardinal & ordinal directions.
+     * @returns {Array} - An array of objects from all cardinal & ordinal directions.
      */
     cardinalsAndOrdinals(x, y) {
-        return {
-            "N": this.cardinal(x, y, Direction.N),
-            "S": this.cardinal(x, y, Direction.S),
-            "E": this.cardinal(x, y, Direction.E),
-            "W": this.cardinal(x, y, Direction.W),
-            "NE": this.ordinal(x, y, Direction.NE),
-            "SE": this.ordinal(x, y, Direction.SE),
-            "SW": this.ordinal(x, y, Direction.SW),
-            "NW": this.ordinal(x, y, Direction.NW),
-        };
+        return [
+            { direction:Direction.N, values:this.cardinal(x, y, Direction.N) },
+            { direction:Direction.S, values:this.cardinal(x, y, Direction.S) },
+            { direction:Direction.E, values:this.cardinal(x, y, Direction.E) },
+            { direction:Direction.W, values:this.cardinal(x, y, Direction.W) },
+            { direction:Direction.NE, values:this.ordinal(x, y, Direction.NE) },
+            { direction:Direction.SE, values:this.ordinal(x, y, Direction.SE) },
+            { direction:Direction.SW, values:this.ordinal(x, y, Direction.SW) },
+            { direction:Direction.NW, values:this.ordinal(x, y, Direction.NW) },
+        ];
     }
 
     /**
@@ -282,10 +282,10 @@ class Grid {
      * @param {number} y - The column index of the cell.
      * @param {...string} directions - Optional. Directions to search for neighbors. 
      *                                 If not provided, searches in all directions.
-     * @returns {object} - An object containing data for the neighbors in specified directions.
+     * @returns {Array} - An array containing data for the neighbors in specified directions.
      */
     getNeighbors(x, y, ...directions) {
-        let data = {}
+        let data = [];
         let offset = {};
 
         // If no directions were supplied, just search them all
@@ -294,37 +294,8 @@ class Grid {
                           Direction.NE,Direction.SE,Direction.SW, Direction.NW];
         }
 
-        directions.forEach(direction => {
-            let value = this.getOffsetData(x, y, Offsets[direction]);
-
-            switch(direction) {
-                case Direction.N:
-                    data["N"] = value;
-                    break;
-                case Direction.S:
-                    data["S"] = value;
-                    break;
-                case Direction.E:
-                    data["E"] = value;
-                    break;
-                case Direction.W:
-                    data["W"] = value;
-                    break;
-                case Direction.NE:
-                    data["NE"] = value;
-                    break;
-                case Direction.SE:
-                    data["SE"] = value;
-                    break;
-                case Direction.SW:
-                    data["SW"] = value;
-                    break;
-                case Direction.NW:
-                    data["NW"] = value;
-                    break;
-                default:
-                    throw new Error("Direction not recognised.")
-            }
+        directions.forEach(dir => {
+            data.push({ direction:dir, value:this.getOffsetData(x, y, Offsets[dir]) });
         });
    
         return data;
@@ -339,4 +310,4 @@ class Grid {
     }
 }
 
-module.exports = { Direction, Grid };
+module.exports = { Direction, Offsets, Grid };
