@@ -28,15 +28,7 @@ class QueenAttack {
     }
   
     get canAttack() {
-        let possibleCells = this.board.row(this.white[0]);
-        possibleCells.push(...this.board.column(this.white[1]));
-
-        possibleCells.push(...this.board.diagonal(this.white[0], this.white[1], grid.Direction.NE));
-        possibleCells.push(...this.board.diagonal(this.white[0], this.white[1], grid.Direction.SE));
-        possibleCells.push(...this.board.diagonal(this.white[0], this.white[1], grid.Direction.SW));
-        possibleCells.push(...this.board.diagonal(this.white[0], this.white[1], grid.Direction.NW));
-
-        return possibleCells.includes("B");
+        return this.board.cardinalsAndOrdinals(this.white[0], this.white[1]).includes("B");
     }
 }
  

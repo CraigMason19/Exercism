@@ -2,7 +2,6 @@
 //  Queen Attack
 //  Word Search
 
-
 const Direction = Object.freeze({
     N: 0,
     E: 1,
@@ -12,6 +11,17 @@ const Direction = Object.freeze({
     SE: 5,
     SW: 6,
     NW: 7,
+});
+
+const Offsets = Object.freeze({
+    [Direction.N]: { x: -1, y: 0 },
+    [Direction.S]: { x: 1, y: 0 },
+    [Direction.E]: { x: 0, y: 1 },
+    [Direction.W]: { x: 0, y: -1 },
+    [Direction.NE]: { x: -1, y: 1 },
+    [Direction.SE]: { x: 1, y: 1 },
+    [Direction.SW]: { x: 1, y: -1 },
+    [Direction.NW]: { x: -1, y: -1 },
 });
 
 /**
@@ -46,8 +56,8 @@ class Grid {
     static fromData(data) {
         let grid = new Grid(data.length, data[0].length);
 
-        for(let i = 0; i < grid.size.rowCount; i++) {
-            for(let j = 0; j < grid.size.columnCount; j++) {
+        for(let i = 0; i < grid.size.rows; i++) {
+            for(let j = 0; j < grid.size.columns; j++) {
                 grid.data[i][j] = data[i][j]; 
             };
         };
@@ -60,7 +70,17 @@ class Grid {
      * @returns {{ rows: number, columns: number }} - The size of the grid.
      */
     get size() {
-        return { rowCount: this.data.length, columnCount: this.data[0].length };
+        return { rows: this.data.length, columns: this.data[0].length };
+    }
+
+    /**
+     * Determines if a cell is in the grid's dimensions.
+     * @param {number} x - The row index of the cell.
+     * @param {number} y - The column index of the cell.
+     * @returns {bool} - Returns true if the x y coordinate is in the grid.
+     */
+    isValidCoordinate(x, y) {
+        return x >= 0 && x < this.size.rows && y >= 0 && y < this.size.columns;
     }
 
     /**
@@ -68,9 +88,15 @@ class Grid {
      * @param {number} x - The row index of the cell.
      * @param {number} y - The column index of the cell.
      * @returns {any} - The value at the specified cell.
+     * @throws {Error} - Throws an error if the coordinates are out of range.
      */
     cell(x, y) {
-        return this.data[x][y];
+        if (this.isValidCoordinate(x, y)) {
+            return this.data[x][y];
+        } 
+        else {
+            throw new Error("Invalid coordinates");
+        }
     }
 
     /**
@@ -78,10 +104,16 @@ class Grid {
      * @param {number} x - The row index of the cell.
      * @param {number} y - The column index of the cell.
      * @param {any} fillValue - The value to set at the specified cell.
+     * @throws {Error} - Throws an error if the coordinates are out of range.
      */
     fillCell(x, y, fillValue) {
-        this.data[x][y] = fillValue;
-    };
+        if (this.isValidCoordinate(x, y)) {
+            this.data[x][y] = fillValue;
+        } 
+        else {
+            throw new Error("Invalid coordinates");
+        }
+    }
 
     /**
      * Gets data from with an offset relative to a position.
@@ -129,18 +161,32 @@ class Grid {
      * Gets all data from a row in the grid.
      * @param {number} n - The row index of the grid.
      * @returns {number} - The values from a row in the grid.
+     * @throws {Error} - Throws an error If the row index is out of bounds.
      */
     row(n) {
-        return this.data[n];
+        if (n >= 0 && n < this.size.rows) {
+            return this.data[n];
+        } 
+
+        else {
+            throw new Error("Invalid row index");
+        }
     }
 
     /**
      * Gets all data from a column in the grid.
      * @param {number} n - The column index of the grid.
      * @returns {number} - The values from a column in the grid.
+     * @throws {Error} - Throws an error If the column index is out of bounds.
      */
     column(n) {
-        return this.data.map(row => row[n]);
+        if (n >= 0 && n < this.size.columns) {
+            return this.data.map(row => row[n]);
+        } 
+
+        else {
+            throw new Error("Invalid column index");
+        }
     }
 
     /**
@@ -151,26 +197,15 @@ class Grid {
      * @returns {Array} - The values from a cardinal direction.
      */
     cardinal(x, y, direction) {
-        let offset; 
+        const offset = Offsets[direction];
 
-        switch(direction) {
-            case Direction.N:
-                offset = { x:-1, y:0 }; 
-                break;
-            case Direction.S:
-                offset = { x:1, y:0 }; 
-                break;
-            case Direction.E:
-                offset = { x:0, y:1 }; 
-                break;
-            case Direction.W:
-                offset = { x:0, y:-1 }; 
-                break;
-            default:
-                throw new Error("Cardinal direction not recognised.")
+        if (offset) {
+            return this.getOffsetDataLoop(x, y, offset);
+        } 
+        
+        else {
+            throw new Error("Cardinal direction not recognized.");
         }
-
-        return this.getOffsetDataLoop(x, y, offset);
     }
 
     /**
@@ -181,26 +216,15 @@ class Grid {
      * @returns {Array} - The values from a ordinal direction.
      */
     ordinal(x, y, direction) {
-        let offset; 
+        const offset = Offsets[direction];
 
-        switch(direction) {
-            case Direction.NE:
-                offset = { x:-1, y:1 }; 
-                break;
-            case Direction.SE:
-                offset = { x:1, y:1 }; 
-                break;
-            case Direction.SW:
-                offset = { x:1, y:-1 }; 
-                break;
-            case Direction.NW:
-                offset = { x:-1, y:-1 }; 
-                break;
-            default:
-                throw new Error("Ordinal direction not recognised.")
+        if (offset) {
+            return this.getOffsetDataLoop(x, y, offset);
+        } 
+        
+        else {
+            throw new Error("Cardinal direction not recognized.");
         }
-
-        return this.getOffsetDataLoop(x, y, offset);
     }
 
     /**
@@ -210,12 +234,7 @@ class Grid {
      * @returns {Array} - The values from all cardinal directions.
      */
     cardinals(x, y) {
-        let cells = []
-
-        cells.push(...this.row(x));
-        cells.push(...this.column(y));
-
-        return cells;
+        return [...this.row(x), ...this.column(y)]
     }
 
     /**
@@ -225,14 +244,12 @@ class Grid {
      * @returns {Array} - The values from all ordinal directions.
      */
     ordinals(x, y) {
-        let cells = []
-        
-        cells.push(...this.ordinal(x, y, Direction.NE));
-        cells.push(...this.ordinal(x, y, Direction.SE))
-        cells.push(...this.ordinal(x, y, Direction.SW))
-        cells.push(...this.ordinal(x, y, Direction.NW));
-
-        return cells;
+        return [
+            ...this.ordinal(x, y, Direction.NE),
+            ...this.ordinal(x, y, Direction.SE),
+            ...this.ordinal(x, y, Direction.SW),
+            ...this.ordinal(x, y, Direction.NW)
+        ];
     }
 
     /**
@@ -242,12 +259,7 @@ class Grid {
      * @returns {Array} - The values from all cardinal & ordinal directions.
      */
     cardinalsAndOrdinals(x, y) {
-        let cells = []
-
-        cells.push(...this.cardinals(x, y));
-        cells.push(...this.ordinals(x, y));
-
-        return cells;
+        return [...this.cardinals(x, y), ...this.ordinals(x, y)];
     }
 
     /**
@@ -269,38 +281,32 @@ class Grid {
         }
 
         directions.forEach(direction => {
+            let value = this.getOffsetData(x, y, Offsets[direction]);
+
             switch(direction) {
                 case Direction.N:
-                    offset = { x:-1, y:0 }; 
-                    data["N"] = this.getOffsetData(x, y, offset);
+                    data["N"] = value;
                     break;
                 case Direction.S:
-                    offset = { x:1, y:0 }; 
-                    data["S"] = this.getOffsetData(x, y, offset);
+                    data["S"] = value;
                     break;
                 case Direction.E:
-                    offset = { x:0, y:1 }; 
-                    data["E"] = this.getOffsetData(x, y, offset);
+                    data["E"] = value;
                     break;
                 case Direction.W:
-                    offset = { x:0, y:-1 }; 
-                    data["W"] = this.getOffsetData(x, y, offset);
+                    data["W"] = value;
                     break;
                 case Direction.NE:
-                    offset = { x:-1, y:1 }; 
-                    data["NE"] = this.getOffsetData(x, y, offset);
+                    data["NE"] = value;
                     break;
                 case Direction.SE:
-                    offset = { x:1, y:1 }; 
-                    data["SE"] = this.getOffsetData(x, y, offset);
+                    data["SE"] = value;
                     break;
                 case Direction.SW:
-                    offset = { x:1, y:-1 }; 
-                    data["SW"] = this.getOffsetData(x, y, offset);
+                    data["SW"] = value;
                     break;
                 case Direction.NW:
-                    offset = { x:-1, y:-1 }; 
-                    data["NW"] = this.getOffsetData(x, y, offset);
+                    data["NW"] = value;
                     break;
                 default:
                     throw new Error("Direction not recognised.")
@@ -315,13 +321,7 @@ class Grid {
      * @returns {string} - A string representation of the grid.
      */
     toString() {
-        let output = [];
-        
-        this.data.forEach(row => {
-            output.push(row.join(" "))
-        });
-
-        return output.join("\n");
+        return this.data.map(row => row.join(" ")).join("\n");
     }
 }
 
