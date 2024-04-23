@@ -231,35 +231,49 @@ class Grid {
      * Gets all data from all cardinal directions (N, E, S, W) including the specified cell.
      * @param {number} x - The row index of the cell.
      * @param {number} y - The column index of the cell.
-     * @returns {Array} - The values from all cardinal directions.
+     * @returns {object} - The key and values from all cardinal directions.
      */
     cardinals(x, y) {
-        return [...this.row(x), ...this.column(y)]
+        return {
+            "N": this.cardinal(x, y, Direction.N),
+            "S": this.cardinal(x, y, Direction.S),
+            "E": this.cardinal(x, y, Direction.E),
+            "W": this.cardinal(x, y, Direction.W),
+        };
     }
 
     /**
      * Gets all data from all ordinal directions (NE, SE, SW, NW) including the specified cell.
      * @param {number} x - The row index of the cell.
      * @param {number} y - The column index of the cell.
-     * @returns {Array} - The values from all ordinal directions.
+     * @returns {object} - The key and values from all ordinal directions.
      */
     ordinals(x, y) {
-        return [
-            ...this.ordinal(x, y, Direction.NE),
-            ...this.ordinal(x, y, Direction.SE),
-            ...this.ordinal(x, y, Direction.SW),
-            ...this.ordinal(x, y, Direction.NW)
-        ];
+        return {
+            "NE": this.ordinal(x, y, Direction.NE),
+            "SE": this.ordinal(x, y, Direction.SE),
+            "SW": this.ordinal(x, y, Direction.SW),
+            "NW": this.ordinal(x, y, Direction.NW),
+        };
     }
 
     /**
      * Gets all data from all cardinal & ordinal directions (N, E, S, W, NE, SE, SW, NW) including the specified cell.
      * @param {number} x - The row index of the cell.
      * @param {number} y - The column index of the cell.
-     * @returns {Array} - The values from all cardinal & ordinal directions.
+     * @returns {object} - The key and values from all cardinal & ordinal directions.
      */
     cardinalsAndOrdinals(x, y) {
-        return [...this.cardinals(x, y), ...this.ordinals(x, y)];
+        return {
+            "N": this.cardinal(x, y, Direction.N),
+            "S": this.cardinal(x, y, Direction.S),
+            "E": this.cardinal(x, y, Direction.E),
+            "W": this.cardinal(x, y, Direction.W),
+            "NE": this.ordinal(x, y, Direction.NE),
+            "SE": this.ordinal(x, y, Direction.SE),
+            "SW": this.ordinal(x, y, Direction.SW),
+            "NW": this.ordinal(x, y, Direction.NW),
+        };
     }
 
     /**
