@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "target":"ES6",
+        "module":"CommonJS",
+        "outDir":"out",  // Define a output directory
+        "sourceMap":true, // Allows for debugging TS
+        "strict": true
+    }
+}
