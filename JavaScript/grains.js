@@ -1,22 +1,19 @@
-const pow = (base, exponent) => BigInt(base) ** BigInt(exponent);
-
-const square = (n) => {
-    if(n <= 0 || n > 64) {
-        throw new Error('square must be between 1 and 64');
+const square = (squareNum) => {
+    if (squareNum < 1 || squareNum > 64) {
+        throw new Error("Invalid square");
     }
-    
-    return pow(2, n-1);
-}
-   
+    if (squareNum === 1) {
+        return 1n;
+    }
+    return 2n ** BigInt(squareNum - 1);
+};
+
 const total = () => {
-     let grains = BigInt(1);
- 
-     for(let i = 2; i < 64+1; i++) {
-         grains += square(i);
-     } 
+    return 2n ** 64n - 1n;
+};
 
-     return grains;
- }
+for (let i = 1; i < 65; i++) {
+    console.log(`${i} -> ${(0, square)(i)}`);
+}
 
-console.log(square(64));
-console.log(total());
+console.log((0, total)());
