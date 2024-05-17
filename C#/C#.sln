@@ -155,9 +155,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grains", "Grains\Grains.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hyper-optimized Telemetry", "Hyper-optimized Telemetry\Hyper-optimized Telemetry.csproj", "{477682E0-606F-4D17-9C01-1357BBFE4362}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Face ID 2.0", "Face ID 2.0\Face ID 2.0.csproj", "{3DE90ECD-1D08-4118-98D3-6E9B32B0B89D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Face ID 2.0", "Face ID 2.0\Face ID 2.0.csproj", "{3DE90ECD-1D08-4118-98D3-6E9B32B0B89D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clock", "Clock\Clock.csproj", "{C291BE1B-CF38-46E1-8683-D5955605E7D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clock", "Clock\Clock.csproj", "{C291BE1B-CF38-46E1-8683-D5955605E7D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grade School", "Grade School\Grade School.csproj", "{3684100C-00DE-4165-A8A4-7359A8AFF372}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Weather in Deather", "The Weather in Deather\The Weather in Deather.csproj", "{BED77B8A-EDD7-4B63-A032-B049ECDD9D09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -477,6 +481,14 @@ Global
 		{C291BE1B-CF38-46E1-8683-D5955605E7D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C291BE1B-CF38-46E1-8683-D5955605E7D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C291BE1B-CF38-46E1-8683-D5955605E7D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3684100C-00DE-4165-A8A4-7359A8AFF372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3684100C-00DE-4165-A8A4-7359A8AFF372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3684100C-00DE-4165-A8A4-7359A8AFF372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3684100C-00DE-4165-A8A4-7359A8AFF372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BED77B8A-EDD7-4B63-A032-B049ECDD9D09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED77B8A-EDD7-4B63-A032-B049ECDD9D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED77B8A-EDD7-4B63-A032-B049ECDD9D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED77B8A-EDD7-4B63-A032-B049ECDD9D09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
