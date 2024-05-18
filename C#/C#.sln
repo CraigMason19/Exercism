@@ -161,7 +161,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clock", "Clock\Clock.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grade School", "Grade School\Grade School.csproj", "{3684100C-00DE-4165-A8A4-7359A8AFF372}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Weather in Deather", "The Weather in Deather\The Weather in Deather.csproj", "{BED77B8A-EDD7-4B63-A032-B049ECDD9D09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "The Weather in Deather", "The Weather in Deather\The Weather in Deather.csproj", "{BED77B8A-EDD7-4B63-A032-B049ECDD9D09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Word Search", "Word Search\Word Search.csproj", "{85EE2C7B-9A22-4955-8A25-2191BBD81BC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -489,6 +491,10 @@ Global
 		{BED77B8A-EDD7-4B63-A032-B049ECDD9D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BED77B8A-EDD7-4B63-A032-B049ECDD9D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BED77B8A-EDD7-4B63-A032-B049ECDD9D09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85EE2C7B-9A22-4955-8A25-2191BBD81BC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85EE2C7B-9A22-4955-8A25-2191BBD81BC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85EE2C7B-9A22-4955-8A25-2191BBD81BC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85EE2C7B-9A22-4955-8A25-2191BBD81BC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
