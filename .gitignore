@@ -401,3 +401,4 @@ FodyWeavers.xsd
 *.sln.iml
 TypeScript/out/
 TypeScript/helper/grid-test.ts
+C#/_Helper/Program.cs
