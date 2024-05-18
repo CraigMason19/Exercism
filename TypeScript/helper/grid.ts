@@ -112,7 +112,30 @@ export class Grid<T> {
     }
 
     /**
+     * Iterates through each element in the grid and applies the given callback function.
+     * 
+     * @param callback - The function to call for each element, which receives the value, row index, and column index.
+     */
+    forEach(callback: (value: T, row: number, col: number) => void): void {
+        for (let row = 0; row < this.data.length; row++) {
+            for (let col = 0; col < this.data[row].length; col++) {
+                callback(this.data[row][col], row, col);
+            }
+        }
+    }
+
+    /**
+     * Flattens the 2D grid into a 1D array.
+     * 
+     * @returns A single array containing all the elements of the grid.
+     */
+    flat(): T[] {
+        return this.data.reduce((acc, row) => acc.concat(row), []);
+    }
+
+    /**
      * Sets the value at the specified cell.
+     * 
      * @param {number} x - The row index of the cell.
      * @param {number} y - The column index of the cell.
      * @param {T} fillValue - The value to set at the specified cell.
