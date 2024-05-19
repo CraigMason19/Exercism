@@ -1,0 +1,18 @@
+﻿// Type: ushort, bytes: 2, signed: no, prefix byte: 2
+// => {0x2, 0x5, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0 };
+var bufferA = TelemetryBuffer.ToBuffer(5);
+
+// Type: int, bytes: 4, signed: yes, prefix byte: 256 - 4
+// => {0xfc, 0xff, 0xff, 0xff, 0x7f, 0x0, 0x0, 0x0, 0x0 };
+var bufferB = TelemetryBuffer.ToBuffer(Int32.MaxValue);
+
+// => 2147483647
+var dataA = TelemetryBuffer.FromBuffer(new byte[] { 0xfc, 0xff, 0xff, 0xff, 0x7f, 0x0, 0x0, 0x0, 0x0 });
+
+// => -32769
+var dataB = TelemetryBuffer.FromBuffer(new byte[] { 0xfe, 0xff, 0xff, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0 });
+
+Console.WriteLine(string.Join("", bufferA));
+Console.WriteLine(string.Join("", bufferB));
+Console.WriteLine(dataA);
+Console.WriteLine(dataB);
