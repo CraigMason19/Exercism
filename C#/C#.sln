@@ -165,7 +165,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "The Weather in Deather", "T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Word Search", "Word Search\Word Search.csproj", "{85EE2C7B-9A22-4955-8A25-2191BBD81BC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isbn Verifier", "Isbn Verifier\Isbn Verifier.csproj", "{5642652B-7C2A-424C-8B78-DF3458A46CD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Isbn Verifier", "Isbn Verifier\Isbn Verifier.csproj", "{5642652B-7C2A-424C-8B78-DF3458A46CD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wizards and Warriors 2.0", "Wizards and Warriors 2.0\Wizards and Warriors 2.0.csproj", "{E6E18625-4C1B-46F4-8145-E8D9715A385C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hyperia Forex", "Hyperia Forex\Hyperia Forex.csproj", "{B691B830-AFD6-498A-BA84-62CBA1A8FEDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Land Grab in Space", "Land Grab in Space\Land Grab in Space.csproj", "{7000B8A7-099D-4C82-9EB1-D222583608C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -501,6 +507,18 @@ Global
 		{5642652B-7C2A-424C-8B78-DF3458A46CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5642652B-7C2A-424C-8B78-DF3458A46CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5642652B-7C2A-424C-8B78-DF3458A46CD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6E18625-4C1B-46F4-8145-E8D9715A385C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6E18625-4C1B-46F4-8145-E8D9715A385C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6E18625-4C1B-46F4-8145-E8D9715A385C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6E18625-4C1B-46F4-8145-E8D9715A385C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B691B830-AFD6-498A-BA84-62CBA1A8FEDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B691B830-AFD6-498A-BA84-62CBA1A8FEDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B691B830-AFD6-498A-BA84-62CBA1A8FEDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B691B830-AFD6-498A-BA84-62CBA1A8FEDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7000B8A7-099D-4C82-9EB1-D222583608C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7000B8A7-099D-4C82-9EB1-D222583608C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7000B8A7-099D-4C82-9EB1-D222583608C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7000B8A7-099D-4C82-9EB1-D222583608C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
