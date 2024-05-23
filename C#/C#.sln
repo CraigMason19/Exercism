@@ -175,11 +175,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Land Grab in Space", "Land 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rational Numbers", "Rational Numbers\Rational Numbers.csproj", "{46CF3AEA-5859-4BC9-947C-536479A8C72A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Two Fer", "Two Fer\Two Fer.csproj", "{D0D6945A-5419-4B93-9B02-31AD86C58C15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Two Fer", "Two Fer\Two Fer.csproj", "{D0D6945A-5419-4B93-9B02-31AD86C58C15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eliuds Eggs", "Eliuds Eggs\Eliuds Eggs.csproj", "{F1363E17-B72E-4757-B493-C8557F3DFA9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eliuds Eggs", "Eliuds Eggs\Eliuds Eggs.csproj", "{F1363E17-B72E-4757-B493-C8557F3DFA9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secret Handshake", "Secret Handshake\Secret Handshake.csproj", "{00C01190-5EFF-4D35-BC2E-5B70B2096DD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Secret Handshake", "Secret Handshake\Secret Handshake.csproj", "{00C01190-5EFF-4D35-BC2E-5B70B2096DD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Word Count", "Word Count\Word Count.csproj", "{A4455D4A-0188-4600-B9D3-344E37920BB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -543,6 +545,10 @@ Global
 		{00C01190-5EFF-4D35-BC2E-5B70B2096DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00C01190-5EFF-4D35-BC2E-5B70B2096DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00C01190-5EFF-4D35-BC2E-5B70B2096DD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4455D4A-0188-4600-B9D3-344E37920BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4455D4A-0188-4600-B9D3-344E37920BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4455D4A-0188-4600-B9D3-344E37920BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4455D4A-0188-4600-B9D3-344E37920BB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
