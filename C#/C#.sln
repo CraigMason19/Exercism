@@ -177,6 +177,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rational Numbers", "Rationa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Two Fer", "Two Fer\Two Fer.csproj", "{D0D6945A-5419-4B93-9B02-31AD86C58C15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eliuds Eggs", "Eliuds Eggs\Eliuds Eggs.csproj", "{F1363E17-B72E-4757-B493-C8557F3DFA9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -531,6 +533,10 @@ Global
 		{D0D6945A-5419-4B93-9B02-31AD86C58C15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0D6945A-5419-4B93-9B02-31AD86C58C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0D6945A-5419-4B93-9B02-31AD86C58C15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1363E17-B72E-4757-B493-C8557F3DFA9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1363E17-B72E-4757-B493-C8557F3DFA9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1363E17-B72E-4757-B493-C8557F3DFA9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1363E17-B72E-4757-B493-C8557F3DFA9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
