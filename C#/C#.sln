@@ -179,6 +179,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Two Fer", "Two Fer\Two Fer.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eliuds Eggs", "Eliuds Eggs\Eliuds Eggs.csproj", "{F1363E17-B72E-4757-B493-C8557F3DFA9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secret Handshake", "Secret Handshake\Secret Handshake.csproj", "{00C01190-5EFF-4D35-BC2E-5B70B2096DD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -537,6 +539,10 @@ Global
 		{F1363E17-B72E-4757-B493-C8557F3DFA9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1363E17-B72E-4757-B493-C8557F3DFA9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1363E17-B72E-4757-B493-C8557F3DFA9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00C01190-5EFF-4D35-BC2E-5B70B2096DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00C01190-5EFF-4D35-BC2E-5B70B2096DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00C01190-5EFF-4D35-BC2E-5B70B2096DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00C01190-5EFF-4D35-BC2E-5B70B2096DD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
