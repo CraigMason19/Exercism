@@ -173,7 +173,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hyperia Forex", "Hyperia Fo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Land Grab in Space", "Land Grab in Space\Land Grab in Space.csproj", "{7000B8A7-099D-4C82-9EB1-D222583608C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rational Numbers", "Rational Numbers\Rational Numbers.csproj", "{46CF3AEA-5859-4BC9-947C-536479A8C72A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rational Numbers", "Rational Numbers\Rational Numbers.csproj", "{46CF3AEA-5859-4BC9-947C-536479A8C72A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Two Fer", "Two Fer\Two Fer.csproj", "{D0D6945A-5419-4B93-9B02-31AD86C58C15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -525,6 +527,10 @@ Global
 		{46CF3AEA-5859-4BC9-947C-536479A8C72A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46CF3AEA-5859-4BC9-947C-536479A8C72A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46CF3AEA-5859-4BC9-947C-536479A8C72A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0D6945A-5419-4B93-9B02-31AD86C58C15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D6945A-5419-4B93-9B02-31AD86C58C15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D6945A-5419-4B93-9B02-31AD86C58C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D6945A-5419-4B93-9B02-31AD86C58C15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
