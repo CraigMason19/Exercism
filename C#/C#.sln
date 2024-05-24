@@ -192,6 +192,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simple Cipher", "Simple Cip
 		{20E9AE93-3C7F-4180-847A-41B76B35FD3E} = {20E9AE93-3C7F-4180-847A-41B76B35FD3E}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beer Song", "Beer Song\Beer Song.csproj", "{09815811-8E38-4F67-80DA-1B5339FBD44E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -570,6 +572,10 @@ Global
 		{9DCDF3EC-DFBF-4641-B8C5-3934A44EF52E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DCDF3EC-DFBF-4641-B8C5-3934A44EF52E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DCDF3EC-DFBF-4641-B8C5-3934A44EF52E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09815811-8E38-4F67-80DA-1B5339FBD44E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09815811-8E38-4F67-80DA-1B5339FBD44E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09815811-8E38-4F67-80DA-1B5339FBD44E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09815811-8E38-4F67-80DA-1B5339FBD44E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
