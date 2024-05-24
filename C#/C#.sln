@@ -181,9 +181,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eliuds Eggs", "Eliuds Eggs\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Secret Handshake", "Secret Handshake\Secret Handshake.csproj", "{00C01190-5EFF-4D35-BC2E-5B70B2096DD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Word Count", "Word Count\Word Count.csproj", "{A4455D4A-0188-4600-B9D3-344E37920BB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Word Count", "Word Count\Word Count.csproj", "{A4455D4A-0188-4600-B9D3-344E37920BB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resistor Color Trio", "Resistor Color Trio\Resistor Color Trio.csproj", "{525EDD28-9C47-4B3A-9E96-9DEF6AAE112B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Resistor Color Trio", "Resistor Color Trio\Resistor Color Trio.csproj", "{525EDD28-9C47-4B3A-9E96-9DEF6AAE112B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bank Account", "Bank Account\Bank Account.csproj", "{67FF2413-04F4-435B-9592-FABB5E44E13A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simple Cipher", "Simple Cipher\Simple Cipher.csproj", "{9DCDF3EC-DFBF-4641-B8C5-3934A44EF52E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{20E9AE93-3C7F-4180-847A-41B76B35FD3E} = {20E9AE93-3C7F-4180-847A-41B76B35FD3E}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -555,6 +562,14 @@ Global
 		{525EDD28-9C47-4B3A-9E96-9DEF6AAE112B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{525EDD28-9C47-4B3A-9E96-9DEF6AAE112B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{525EDD28-9C47-4B3A-9E96-9DEF6AAE112B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67FF2413-04F4-435B-9592-FABB5E44E13A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67FF2413-04F4-435B-9592-FABB5E44E13A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67FF2413-04F4-435B-9592-FABB5E44E13A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67FF2413-04F4-435B-9592-FABB5E44E13A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DCDF3EC-DFBF-4641-B8C5-3934A44EF52E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DCDF3EC-DFBF-4641-B8C5-3934A44EF52E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DCDF3EC-DFBF-4641-B8C5-3934A44EF52E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DCDF3EC-DFBF-4641-B8C5-3934A44EF52E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
