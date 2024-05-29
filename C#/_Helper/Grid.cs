@@ -2,6 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 
+/// <summary>
+/// A class for 2D grids. 
+/// 
+/// Used in
+///     - Minesweeper
+///     - Queen Attack
+///     - Word Search
+/// 
+/// It is 0 based and accessed by row then column
+/// </summary>
+
 namespace _Helper
 {
     public enum Direction
@@ -85,6 +96,22 @@ namespace _Helper
             }
 
             return grid;
+        }
+
+        public static Grid<string> FromStringArray(string[] data)
+        {
+            string[][] stringData = new string[data.Length][];
+
+            for (int i = 0; i < data.Length; i++)
+            {
+                stringData[i] = new string[data[i].Length];
+                for (int j = 0; j < data[i].Length; j++)
+                {
+                    stringData[i][j] = data[i][j].ToString();
+                }
+            }
+
+            return Grid<string>.FromData(stringData);
         }
 
         public bool IsValidCoordinate(int x, int y) => x >= 0 && x < this.Size.Item1 && y >= 0 && y < this.Size.Item2;
