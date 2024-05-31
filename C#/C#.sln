@@ -198,7 +198,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phone Number", "Phone Numbe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minesweeper", "Minesweeper\Minesweeper.csproj", "{625E1360-FB49-427B-87D1-D8190C52CECD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kindergarten Garden", "Kindergarten Garden\Kindergarten Garden.csproj", "{35FFB4C6-28B3-4978-8274-E5322B5A3EF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kindergarten Garden", "Kindergarten Garden\Kindergarten Garden.csproj", "{35FFB4C6-28B3-4978-8274-E5322B5A3EF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proverb", "Proverb\Proverb.csproj", "{B24C7950-4E34-48BD-8020-3C96638F7A78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -594,6 +596,10 @@ Global
 		{35FFB4C6-28B3-4978-8274-E5322B5A3EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35FFB4C6-28B3-4978-8274-E5322B5A3EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35FFB4C6-28B3-4978-8274-E5322B5A3EF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B24C7950-4E34-48BD-8020-3C96638F7A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B24C7950-4E34-48BD-8020-3C96638F7A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B24C7950-4E34-48BD-8020-3C96638F7A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B24C7950-4E34-48BD-8020-3C96638F7A78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
