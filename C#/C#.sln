@@ -200,7 +200,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minesweeper", "Minesweeper\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kindergarten Garden", "Kindergarten Garden\Kindergarten Garden.csproj", "{35FFB4C6-28B3-4978-8274-E5322B5A3EF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proverb", "Proverb\Proverb.csproj", "{B24C7950-4E34-48BD-8020-3C96638F7A78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proverb", "Proverb\Proverb.csproj", "{B24C7950-4E34-48BD-8020-3C96638F7A78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simple Linked List", "Simple Linked List\Simple Linked List.csproj", "{5FF247C1-8411-4FFC-B707-7F55D124650F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wordy", "Wordy\Wordy.csproj", "{BE0FC2DC-CDE6-4FA0-AF62-76A3988417FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -600,6 +604,14 @@ Global
 		{B24C7950-4E34-48BD-8020-3C96638F7A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B24C7950-4E34-48BD-8020-3C96638F7A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B24C7950-4E34-48BD-8020-3C96638F7A78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FF247C1-8411-4FFC-B707-7F55D124650F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FF247C1-8411-4FFC-B707-7F55D124650F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FF247C1-8411-4FFC-B707-7F55D124650F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FF247C1-8411-4FFC-B707-7F55D124650F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE0FC2DC-CDE6-4FA0-AF62-76A3988417FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE0FC2DC-CDE6-4FA0-AF62-76A3988417FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE0FC2DC-CDE6-4FA0-AF62-76A3988417FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE0FC2DC-CDE6-4FA0-AF62-76A3988417FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
