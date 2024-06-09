@@ -204,7 +204,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proverb", "Proverb\Proverb.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simple Linked List", "Simple Linked List\Simple Linked List.csproj", "{5FF247C1-8411-4FFC-B707-7F55D124650F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wordy", "Wordy\Wordy.csproj", "{BE0FC2DC-CDE6-4FA0-AF62-76A3988417FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wordy", "Wordy\Wordy.csproj", "{BE0FC2DC-CDE6-4FA0-AF62-76A3988417FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pascal's Triangle", "Pascal's Triangle\Pascal's Triangle.csproj", "{F0B7659F-5278-45E9-A10E-6ECD652F6359}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -612,6 +614,10 @@ Global
 		{BE0FC2DC-CDE6-4FA0-AF62-76A3988417FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE0FC2DC-CDE6-4FA0-AF62-76A3988417FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE0FC2DC-CDE6-4FA0-AF62-76A3988417FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0B7659F-5278-45E9-A10E-6ECD652F6359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0B7659F-5278-45E9-A10E-6ECD652F6359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0B7659F-5278-45E9-A10E-6ECD652F6359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0B7659F-5278-45E9-A10E-6ECD652F6359}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
