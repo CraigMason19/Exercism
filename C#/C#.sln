@@ -208,7 +208,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wordy", "Wordy\Wordy.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pascal's Triangle", "Pascal's Triangle\Pascal's Triangle.csproj", "{F0B7659F-5278-45E9-A10E-6ECD652F6359}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "House", "House\House.csproj", "{AC818532-FAE2-47B3-A8EB-9242E0C64B87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "House", "House\House.csproj", "{AC818532-FAE2-47B3-A8EB-9242E0C64B87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom Set", "Custom Set\Custom Set.csproj", "{1506859F-6EC5-409F-A9F7-3D5A31FA9675}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -624,6 +626,10 @@ Global
 		{AC818532-FAE2-47B3-A8EB-9242E0C64B87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC818532-FAE2-47B3-A8EB-9242E0C64B87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC818532-FAE2-47B3-A8EB-9242E0C64B87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1506859F-6EC5-409F-A9F7-3D5A31FA9675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1506859F-6EC5-409F-A9F7-3D5A31FA9675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1506859F-6EC5-409F-A9F7-3D5A31FA9675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1506859F-6EC5-409F-A9F7-3D5A31FA9675}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
