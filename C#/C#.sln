@@ -214,7 +214,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Custom Set", "Custom Set\Cu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strain", "Strain\Strain.csproj", "{335F1CA4-F1DD-4607-9EA3-BA3755DD4884}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "All Your Base", "All Your Base\All Your Base.csproj", "{A9336B8B-5CAD-4EED-8106-9F65E83046EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "All Your Base", "All Your Base\All Your Base.csproj", "{A9336B8B-5CAD-4EED-8106-9F65E83046EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Largest Series Product", "Largest Series Product\Largest Series Product.csproj", "{8249205A-AC2B-4B38-AF04-D632AB3A3C93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -642,6 +644,10 @@ Global
 		{A9336B8B-5CAD-4EED-8106-9F65E83046EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9336B8B-5CAD-4EED-8106-9F65E83046EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9336B8B-5CAD-4EED-8106-9F65E83046EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8249205A-AC2B-4B38-AF04-D632AB3A3C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8249205A-AC2B-4B38-AF04-D632AB3A3C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8249205A-AC2B-4B38-AF04-D632AB3A3C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8249205A-AC2B-4B38-AF04-D632AB3A3C93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
