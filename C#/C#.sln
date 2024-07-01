@@ -226,9 +226,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flatten Array", "Flatten Ar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linked List", "Linked List\Linked List.csproj", "{679F3299-5768-4572-8014-A7DCEE22D79E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteControlCleanup", "RemoteControlCleanup\RemoteControlCleanup.csproj", "{39026D6D-1E63-4ECC-9449-1A32CCFFA958}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoteControlCleanup", "RemoteControlCleanup\RemoteControlCleanup.csproj", "{39026D6D-1E63-4ECC-9449-1A32CCFFA958}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Red vs Blue - Darwin Style", "Red vs Blue - Darwin Style\Red vs Blue - Darwin Style.csproj", "{50B2E557-B047-4707-BDB7-234222BC4FCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Red vs Blue - Darwin Style", "Red vs Blue - Darwin Style\Red vs Blue - Darwin Style.csproj", "{50B2E557-B047-4707-BDB7-234222BC4FCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Developer Privileges", "Developer Privileges\Developer Privileges.csproj", "{70A19975-5A0D-4ECF-A2D7-A1714710FFA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -684,6 +686,10 @@ Global
 		{50B2E557-B047-4707-BDB7-234222BC4FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50B2E557-B047-4707-BDB7-234222BC4FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50B2E557-B047-4707-BDB7-234222BC4FCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70A19975-5A0D-4ECF-A2D7-A1714710FFA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70A19975-5A0D-4ECF-A2D7-A1714710FFA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70A19975-5A0D-4ECF-A2D7-A1714710FFA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70A19975-5A0D-4ECF-A2D7-A1714710FFA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
