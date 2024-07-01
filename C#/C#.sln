@@ -224,7 +224,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roman Numerals", "Roman Num
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flatten Array", "Flatten Array\Flatten Array.csproj", "{2FF3BFBE-0A46-432C-A1FE-CF0A54A2728D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linked List", "Linked List\Linked List.csproj", "{679F3299-5768-4572-8014-A7DCEE22D79E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linked List", "Linked List\Linked List.csproj", "{679F3299-5768-4572-8014-A7DCEE22D79E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteControlCleanup", "RemoteControlCleanup\RemoteControlCleanup.csproj", "{39026D6D-1E63-4ECC-9449-1A32CCFFA958}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -672,6 +674,10 @@ Global
 		{679F3299-5768-4572-8014-A7DCEE22D79E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{679F3299-5768-4572-8014-A7DCEE22D79E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{679F3299-5768-4572-8014-A7DCEE22D79E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39026D6D-1E63-4ECC-9449-1A32CCFFA958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39026D6D-1E63-4ECC-9449-1A32CCFFA958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39026D6D-1E63-4ECC-9449-1A32CCFFA958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39026D6D-1E63-4ECC-9449-1A32CCFFA958}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
