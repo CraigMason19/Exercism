@@ -7,6 +7,7 @@
 public struct Speed
 {
     public decimal Amount { get; }
+
     public SpeedUnits SpeedUnits { get; }
 
     public Speed(decimal amount, SpeedUnits speedUnits)
