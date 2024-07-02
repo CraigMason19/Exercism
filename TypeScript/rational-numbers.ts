@@ -44,7 +44,7 @@ export class Rational {
 
     div(other: Rational): Rational {
         if(this.denominator === 0) {
-            throw new Error('Divide by zero')
+            throw new Error('Divide by zero');
         }
 
         let a = (this.numerator * other.denominator);
