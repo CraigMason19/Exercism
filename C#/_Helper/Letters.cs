@@ -21,14 +21,19 @@ namespace _Helper
             return char.ToLower(letter) - 97;
         }
 
-        public static char LetterFromIndex(int index)
+        public static int PositionFromLetter(char letter)
+        {
+            return char.ToLower(letter) - 97 + 1;
+        }
+
+        public static char LetterFromIndex(int index, bool toUppercase)
         {
             // C# modulus operate doesn't work for negative numbers
             // e.g. -9 % 26 = -9 -> default C#
             //      -9 % 26 = 17 -> What is wanted
             int i = ((index % 26) + 26) % 26;
 
-            return Lower[i];
+            return (toUppercase == false) ? Lower[i] : Upper[i];
         }
     }
 }
