@@ -2,6 +2,7 @@
 // Used in:
 //  Queen Attack
 //  Word Search
+//  Saddle Points
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Grid = exports.Offsets = exports.Direction = void 0;
 var Direction;

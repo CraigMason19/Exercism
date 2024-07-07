@@ -1,6 +1,7 @@
 // Used in:
-//  Queen Attack
-//  Word Search
+//  - Queen Attack
+//  - Word Search
+//  - Saddle Points
 
 export enum Direction {
     N,
