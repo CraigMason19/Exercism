@@ -250,7 +250,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Raindrops", "Raindrops\Rain
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Error Handling", "Error Handling\Error Handling.csproj", "{9ED170EA-06BD-4982-9150-4CB8F7A3A504}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Building Telemetry", "Building Telemetry\Building Telemetry.csproj", "{4E264A33-EC7C-4DAF-84EC-6C8BD6A02215}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Building Telemetry", "Building Telemetry\Building Telemetry.csproj", "{4E264A33-EC7C-4DAF-84EC-6C8BD6A02215}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCR Numbers", "OCR Numbers\OCR Numbers.csproj", "{3C723260-A2A8-4EEE-B946-72050CAEDD87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -750,6 +752,10 @@ Global
 		{4E264A33-EC7C-4DAF-84EC-6C8BD6A02215}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E264A33-EC7C-4DAF-84EC-6C8BD6A02215}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E264A33-EC7C-4DAF-84EC-6C8BD6A02215}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C723260-A2A8-4EEE-B946-72050CAEDD87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C723260-A2A8-4EEE-B946-72050CAEDD87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C723260-A2A8-4EEE-B946-72050CAEDD87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C723260-A2A8-4EEE-B946-72050CAEDD87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
