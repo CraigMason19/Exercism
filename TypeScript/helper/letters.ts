@@ -1,4 +1,6 @@
 export const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+export const VOWELS: string = "AEIOU";
+export const CONSONANTS: string = [...ALPHABET].filter((letter: string) => !VOWELS.includes(letter)).join("");
 
 /**
  * Checks if a given character is a letter (a-z or A-Z).

@@ -2,6 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.randomLetter = exports.letterFromIndex = exports.positionFromLetter = exports.indexFromLetter = exports.isLetter = exports.ALPHABET = void 0;
 exports.ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+exports.VOWELS = "AEIOU";
+exports.CONSONANTS = [...exports.ALPHABET].filter((letter) => !exports.VOWELS.includes(letter)).join("");
 /**
  * Checks if a given character is a letter (a-z or A-Z).
  *
